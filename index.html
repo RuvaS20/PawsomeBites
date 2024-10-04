@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsome Bites</title>
+
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+    </style>
+
+    <!-- Search icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
+
+    <!-- CSS Files - common is shared -->
+    <link rel="stylesheet" href="css\common.css">
+    <link rel="stylesheet" href="css\index.css"> 
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images\logo.png">
+    
+    <style>
+
+        
+    </style>
+</head>
+
+<body>
+
+    <nav>
+
+        <a href="index.html"><img src="images\logo.png" id="nav_logo"></a>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="recipe-feed.html">Recipes</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <form id="nav_search_form">
+                <input type="text" placeholder="Search for recipes..." >
+                <span class="material-symbols-outlined" id="nav_search_icon">search</span>
+            </form>
+
+        </ul>
+
+    </nav>
+
+    <div class="landing_wrapper">
+
+        <div class="row welcome_text_row">
+            <h1>Welcome to Pawsome Bites</h1>
+
+            <p >Kitty, meet fish. Fish, meet pan. <br>
+                At Pawsome Bites, we serve up seafood recipes that'll have you feline fine and dandy!</p>
+
+            <div class="home_buttons_wrapper">
+                <a href="signup.html" class="home_button signup_home_button">
+                    Sign up
+                </a>
+
+                <a href="login.html" class="home_button login_home_button">
+                    Log in
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="row cards_row">
+
+            <div class="recipe_card_home">
+                <h3>Sushi Rolls</h3>
+
+                <div>
+                    <img src="images\sushi.png" alt="lobster">
+                </div>
+
+                <p>Japanese dish of vinegared rice combined with raw fish, seafood, and vegetables.</p>
+            </div>
+
+            <div class="recipe_card_home">
+                <h3>Boiled Lobster</h3>
+
+                <div>
+                    <img src="images\lobster.png" alt="lobster">
+                </div>
+
+                <p>Boiled lobster served with melted butter for dipping.</p>
+            </div>
+
+            <div class="recipe_card_home">
+                <h3>Crispy Calamari</h3>
+                <div>
+                    <img src="images\calamari.png" alt="lobster">
+                </div>
+                <p>Golden-fried calamari rings served with a zesty dipping sauce</p>
+            </div>
+
+        </div>
+
+        <div class="row explore_row">
+            <p>Want to see more of these recipes? Explore more </p>
+            <a href="recipe-feed.html" class="home_button explore_button">
+                Explore now
+            </a>
+        </div>
+ 
+    </div>
+
+
+</body>
+
+
+</html>

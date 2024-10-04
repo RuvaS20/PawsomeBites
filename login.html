@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pawsome Bites Login</title>
+
+    <!-- Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="css\common.css">
+    <link rel="stylesheet" href="css\login.css">
+    <link rel="icon" type="image/x-icon" href="images\logo.png">
+
+</head>
+
+<body id="login_body">
+
+    <div class="cards_wrapper">
+
+        <div class="left_card">
+            <h1>Pawsome Bites</h1>
+            <h2>Welcome Foodie</h2>
+
+            <!--Login Form-->
+            <div class="form_wrapper">
+                <form action="#" method="POST" id="login_form">
+                    <label>
+                        Email
+                        <input type="email" name="login_email" placeholder="janedoe@gmail.com" required>
+                    </label>
+
+                    <label>
+                        Password
+                        <input type="password" name="login_password" placeholder="*********" required>
+                    </label>
+
+                    <div class="above_button">
+                        <label for="remember" id="remember_label">
+                            Remember me
+                            <input type="checkbox" id="remember_checkmark" name="remember">
+                        </label>
+                        <a href="#">Forgot your password?</a>
+                    </div>
+
+                    <button type="submit">
+                        Log In
+                    </button>
+
+                    <p>Don't have an account?
+                        <a href="signup.html">
+                            Sign up
+                        </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+        <div class="right_card">
+            <img src="images\kitties.png" alt="Cute kittens" class="kitty_image">
+        </div>
+
+    </div>
+</body>
+
+</html>

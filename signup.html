@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsome Bites Sign-Up</title>
+
+    <!-- Fonts  -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+    </style>
+
+    <!-- CSS Files - common is shared -->
+    <link rel="stylesheet" href="css\common.css">
+    <link rel="stylesheet" href="css\signup.css">
+   
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images\logo.png">
+</head>
+
+<body>
+    <div class="cards_wrapper">
+            
+        <div class="left_card">
+            <h1>Pawsome Bites</h1>
+            <h2>Welcome Foodie</h2>
+            
+            <!--Sign up Form-->
+            <div class="form_wrapper">
+                <h3 class="form_head">Sign-up</h3>
+                <form action="#" method="POST" id="signup_form">
+                    <label>
+                        First Name
+                        <input type="text" name="firstname" placeholder="Jane" required>
+                    </label>
+            
+                    <label>
+                        Last Name
+                        <input type="text" name="lastname" placeholder="Doe" required>
+                    </label>
+            
+                    <label>
+                        Email
+                        <input type="email" name="signup_email" placeholder="janedoe@gmail.com" required>
+                    </label>
+            
+                    <label>
+                        Password
+                        <input type="password" name="signup_password" placeholder="**********" required>
+                    </label>
+            
+                    <p>Already have an account?
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </p>
+            
+                    <button type="submit">
+                        <label>
+                            Get Started
+                        </label>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="right_card">
+            <img src="images\kitties.png" alt="Cute kittens" class="kitty_image">
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
