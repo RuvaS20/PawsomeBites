@@ -1,0 +1,144 @@
+:root {
+    --background-color: #FCF4D0;
+    --button-primary-color: #FFA920;
+    --button-secondary-color: #FE9442;
+    --input-background-color: #fafafa;
+    --placeholder-text-color: #d3d3d3;
+    --card-filter-color: #cccccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+body,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+    font-family: "Handlee", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    transition: all 200ms;
+    background-color: var(--button-primary-color);
+    border: 0.5px solid black;
+    color: black;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--button-secondary-color);
+    color: white;
+}
+
+input {
+    line-height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: black solid 1px;
+    border-radius: 4px;
+    color: black;
+    outline: 0;
+    font-size: 17px;
+    width: 100%;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+
+input:focus,
+input:hover {
+    background-color: var(--input-background-color);
+    border-color: var(--button-primary-color);
+    transition: all 400ms;
+}
+
+::placeholder {
+    color: var(--placeholder-text-color);
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    list-style: none;
+}
+
+.nav-links a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 200ms;
+}
+
+.nav-links a:hover {
+    cursor: pointer;
+    color: var(--button-secondary-color);
+    text-shadow: -.25px -.25px 0 black,
+        .25px .25px black;
+}
+
+#nav_logo {
+    width: 20%;
+    height: auto;
+    margin: 2em;
+}
+
+#nav_search_form {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+#nav_search_form input {
+    width: 15vw;
+}
+
+#nav_search_icon {
+    padding-left: 10px;
+}
